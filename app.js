@@ -44,7 +44,7 @@ const url ="https://us1.api.mailchimp.com/3.0/lists/8553b00b89"
 
 const options= {
     method:"POST",
-    auth:"mok2012:4ed40b07185071c0222fb0da24bb8bbf-us1"
+    auth:""
 }
 
 const request =https.request(url ,options, function (response) {
@@ -77,7 +77,3 @@ res.redirect("/")
 app.listen(process.env.PORT || 8080,function(){
     console.log('Server is running on port 8080')
 })
-//api key
-//4ed40b07185071c0222fb0da24bb8bbf-us1
-//list id 
-//8553b00b89
