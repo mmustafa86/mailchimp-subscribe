@@ -64,7 +64,7 @@ if (response.statusCode===200){
     
 })
 // console.log(jsonData)
-    // request.write(jsonData)
+    request.write(jsonData)
     request.end()
 })
 
