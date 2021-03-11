@@ -37,7 +37,7 @@ var data={
     ] ,
 
 }
-
+//
 const jsonData = JSON.stringify(data)
 
 const url ="https://us1.api.mailchimp.com/3.0/lists/8553b00b89"
